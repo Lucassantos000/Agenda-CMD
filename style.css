@@ -1,0 +1,146 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .titulo{
+    align-items: center; 
+    background-color:teal;
+    border: 2px black solid;
+    color:white;
+    display: flex;
+    height: 60px; 
+    justify-content: center;
+    width: 900px;
+    margin: 10px 0px;
+
+ }
+
+ .container{
+     background-color: #F0F0F0;
+     border: 2px orangered solid;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;    
+     justify-content: center;
+     width: 900px;
+     height: 600px;
+     font-family: 'Rajdhani';
+ }
+
+ .container-agenda{
+     background-color: whitesmoke;
+     border: 1px black solid;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     margin: 20px 15px;
+     width: 400px;
+     height: 550px;
+     align-items: center;   ,
+     
+    
+ }
+
+ .dias-da-semana{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 100%;
+
+ }
+
+ .dias-da-semana h3{
+     color: black;
+     font-size: 20px;
+     margin: 10px 2px;
+ }
+
+ .semana{
+     align-items: center;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin: 10px 0px;
+     width: 100%;
+
+ }
+
+ .dia{
+     align-items: center;
+     display: flex;
+     border: 2px #006C88 solid;
+     border-radius: 50%;
+     justify-content: center;
+     width: 40px;
+     height: 40px;
+     
+     
+ }
+
+
+
+ .container-informacao{
+     background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     height: 550px;
+     margin: 20px 15px;
+     width: 400px;
+     align-items: center;
+    
+ }
+
+ .titulo-container{
+     background-color: #00CAFF;
+     border: 2px #006C88 solid;
+     border-radius: 20px;
+     color: white;
+     font-size: 18px;
+     height: 60px;
+     width: 340px;
+     padding: 5px auto;
+     margin: 10px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .informacao{
+     width: 90%;
+     border: 2px #006C88 solid;
+     border-radius: 10px;
+ }
+
+ .new-informacoes{
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     margin: 5px;
+     width: 90%;
+
+ }
+ 
+
+ .new-informacoes p{
+     margin: 3.5px;
+ }
+ .titulo-informacao{
+    text-decoration: underline;
+    color: black;
+    font-weight: 550;
+    font-size: 18px;
+}
+
