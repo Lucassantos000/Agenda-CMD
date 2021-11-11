@@ -42,6 +42,9 @@ var ano = data.getFullYear();
 
 var mesInt = parseInt(mes)-1; // O menos 1 é porque o vetor começa do zero
 
+
+
+
 /*
 console.log(mes);
 console.log(arraymes[mes])
@@ -55,7 +58,7 @@ console.log(ano);
 
 setarData(dia, mes, ano);
 setarMesAtual(arraymes, mesInt );
-
+corDia();
 
 
 /*Incrementa o valor do mes*/
@@ -119,6 +122,25 @@ function incMes(){
     mes.innerHTML = arraymes[mesInt];
 }
 
+/*função que deixa o fundo do dia com a cor escura*/
+
+function corDia(){
+    
+    let data = new Date();
+
+    let dia = String(data.getDate()).padStart(2,'0');
+
+    const diaAgenda = document.getElementsByClassName(dia)[0];
+
+    
+    diaAgenda.style.backgroundColor = "rgba(5, 161, 243, 1)";
+    diaAgenda.style.color = "white";
+    diaAgenda.style.fontWeight = "700";
+    
+    
+
+
+}
 
 
 setaEsquerda.addEventListener( 'click' , decMes );
